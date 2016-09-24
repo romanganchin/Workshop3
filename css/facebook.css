@@ -1,9 +1,9 @@
 body{
   padding-top: 60px;
 }
-/*.green {
+.green {
   color: green;
-}*/
+}
 .fb-search {
 width: 395px !important;
 }
@@ -43,10 +43,10 @@ an element with class fb-trending */
   position: fixed;
   bottom: 0px;
   right: 20px;
-  /*border: 1px solid #000;
+  border: 1px solid #000;
   border-bottom: none;
   border-top-left-radius: 3px;
-  border-top-right-radius: 3px; */
+  border-top-right-radius: 3px;
 }
 .fb-status-update-entry textarea {
   resize: none;
@@ -61,4 +61,18 @@ an element with class fb-trending */
   margin-bottom: 10px;
   /* Adds whitespace between top of media object and top border. */
   padding-top: 5px;
+}
+.fb-status-update hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* The color of `hr` is set by its top border color.
+  Yeah, it's weird. */
+  border-top: 1px solid lightgray;
+}
+.fb-status-update .list-inline {
+  margin-bottom: 0px;
+}
+
+.fb-status-update .panel-body {
+  padding-bottom: 5px;
 }
