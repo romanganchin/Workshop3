@@ -6,9 +6,19 @@ body {
   width: 200px !important;
   padding-left: 5px !important;
   padding-right: 5px !important;
+  border-radius: 30px 0px 0px 30px;
+}
+.search-btn {
+   border-radius: 0px 30px 30px 0px;
+   cursor:pointer;
 }
 
-.search-form {
-    border-radius: 30px 0px 0px 30px;
-    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+.mylist-withspaces{
+  padding: 20px;
+}
+.myinput-class{
+  display: inline;
+}
+.mycolor{
+  color:#A9A9A9;
 }
